@@ -27,13 +27,7 @@ for (var i = 0; i < nome.length; i++) {
 console.log(nome.charAt(i));
 }
 //Calcule o fatorial de um número usando array. 
-function fatorial(numero) {
-let num = 1;
-for (let i = numero; i > 1; i--) {
-num *= i;
-}
-return num;
-}
+
 console.log(fatorial(5));
 //[Extra] Dado um array de 2 dimensões, conte e mostre quantos elementos são distintos.
 const arr = ["a","b","a","d","b"];
